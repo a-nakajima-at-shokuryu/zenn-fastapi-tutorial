@@ -12,6 +12,9 @@ SQLAlchemy = "^1.4.31"
 aiomysql = "^0.0.22"
 
 [tool.poetry.dev-dependencies]
+pytest-asyncio = "^0.18.1"
+aiosqlite = "^0.17.0"
+httpx = "^0.22.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
